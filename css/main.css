@@ -609,6 +609,17 @@ ul.sub-menu {
   animation: fadeInRight 500ms ease-in-out 1200ms both;
 }
 
+#home-slider .slider-cycle {
+  position: absolute;
+  right: 500px;
+  bottom: 0;
+}
+
+.animate-in .slider-cycle {
+  -webkit-animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
 
 #home-slider h1{
   margin-top: 100px;
