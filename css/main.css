@@ -611,14 +611,49 @@ ul.sub-menu {
 
 #home-slider .slider-cycle {
   position: absolute;
-  right: 380px;
+  right: 320px;
+  bottom: 0;
+}
+
+#home-slider .slider-cycle1 {
+  position: absolute;
+  right: 360px;
+  bottom: 0;
+}
+
+#home-slider .slider-cycle2 {
+  position: absolute;
+  right: 440px;
+  bottom: 0;
+}
+
+#home-slider .slider-cycle3 {
+  position: absolute;
+  right: 400px;
   bottom: 0;
 }
 
 .animate-in .slider-cycle {
+  -webkit-animation: slideInLeft 3000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 3000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+.animate-in .slider-cycle1 {
   -webkit-animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
   animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
 }
+
+.animate-in .slider-cycle2 {
+  -webkit-animation: slideInLeft 3500ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 3500ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+.animate-in .slider-cycle3 {
+  -webkit-animation: slideInLeft 2000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 2000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+
 
 
 #home-slider h1{
