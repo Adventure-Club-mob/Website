@@ -37,7 +37,7 @@ jobs:
           # Build configuration for the angular app
           build_configuration: production
           # base href for the app
-          base_href: http://ac-uok.com/
+          base_href: https://ac-uok.com/
           # branch on which the angular build will be deployed
           deploy_branch: gh-pages
           # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
