@@ -31,7 +31,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/main.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/lightbox.css",
+              "src/assets/css/prettyPhoto.css",
+              "src/assets/css/responsive.css"
             ],
             "scripts": []
           },
@@ -94,7 +100,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/main.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/lightbox.css",
+              "src/assets/css/prettyPhoto.css",
+              "src/assets/css/responsive.css"
             ],
             "scripts": []
           }
