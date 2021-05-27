@@ -95,7 +95,7 @@
   }
 
   #home-slider h1 {
-    margin-top: 0;
+    margin-top: revert;
   }
 
   #home-slider .slider-hill {
@@ -236,6 +236,13 @@
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-top: 0;
+    margin-left: 35%;
+    margin-right: 0;
+    
+  }
+
+  .btn-common {
+    margin-left: 7%;
   }
 
   .navbar.navbar-inverse {
