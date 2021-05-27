@@ -78,6 +78,10 @@ jQuery(function($) {'use strict';
 		});
 	});
 
+	
+	//// Email sending function code in sendmail.js
+	
+
 	// Progress Bar
 	$.each($('div.progress-bar'),function(){
 		$(this).css('width', $(this).attr('data-transition')+'%');

@@ -18,9 +18,20 @@
 	    <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/favicon.png">
-</head><!--/head-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_VweBcKZOGe6KxAd3BJHTx");
+    })();
+    </script>
+
+    <script src="js/sendmail.js"></script>
+
+</head>
 
 <body>
+    
 	<header id="header">
         <div class="container">
             <div class="row">
@@ -305,22 +316,26 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="contact-form bottom">
                         <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
-                            </div>
-                        </form>
+                        <div class="form-group">
+                            <!-- <span class="label-form" for="name">Full Name</span> -->
+                            <input id="userName" type="text" name="name" class="form-control" required="required" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <!-- <span class="label-form" for="name">Email</span> -->
+                            <input id="userMail" type="email" name="email" class="form-control" required="required" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <span class="label-form" for="name">Message</span>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                        </div>
+                        <!-- <div class="form-group">
+                            <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                        </div> -->
+                        <button  class="btn btn-submit" onclick="send_mail();"><b>Send</b></button>
+                        
                     </div>
                 </div>
+
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
                         <p>&copy; 2021; All Rights Reserved.</p>
@@ -337,5 +352,25 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "100012595568504", // Facebook page ID
+            whatsapp: "+94777163782", // WhatsApp number
+            call_to_action: "Contact us", // Call to action
+            button_color: "#129BF4", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp", // Order of buttons
+            pre_filled_message: "WhatsApp me", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 </html>
