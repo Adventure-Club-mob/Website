@@ -34,9 +34,9 @@
 
          <!-- Srcipt from loading GIF  -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
-<!--    <script>  -->
-<!--        $(window).on('load', function () {  -->
-<!--            $(".preloader").fadeOut("slow");  -->
+<!--    <script>-->
+<!--        $(window).on('load', function () {-->
+<!--            $(".loader").fadeOut("slow");-->
 <!--        });  -->
 <!--    </script>-->
 
@@ -46,12 +46,12 @@
             setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
         });
         function removeLoader(){
-            $( "#loadingDiv" ).fadeOut(500, function() {
+            $( "#loader" ).fadeOut(500, function() {
                 // fadeOut complete. Remove the loading div
-                $( "#loadingDiv" ).remove(); //makes page more lightweight
+                $( "#loader" ).remove(); //makes page more lightweight
             });
         }
-        
+
         var loader;
 
         function loadNow(opacity) {
