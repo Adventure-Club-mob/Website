@@ -665,7 +665,7 @@ ul.sub-menu {
   margin-top: 20px;
 }
 
-#home-slider .preloader {
+/* #home-slider .preloader {
   position: absolute;
   left: 0;
   top: 0;
@@ -685,6 +685,15 @@ ul.sub-menu {
   margin-left: -24px;
   top: 50%;
   margin-top: -24px;
+} */
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('../images/hiking-gif-1.gif') no-repeat center center;
 }
 
 #action {
