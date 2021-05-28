@@ -693,7 +693,7 @@ ul.sub-menu {
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: #fff url('hiking-gif-1.gif') no-repeat center center;
+  background: #fff url('../images/hiking-gif-1.gif') no-repeat center center;
 }
 
 #action {
