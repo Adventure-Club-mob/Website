@@ -6,6 +6,8 @@
     <meta name="description" content="Adventure club is established in University of Kelaniya. It mainly focus on the improve the soft skills within the undergraduates.">
     <meta name="author" content="Adventure Club">
     <title>Adventure Club</title>
+
+    <!-- ////// CSS Linked ////// -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet"> 
@@ -17,9 +19,10 @@
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->  
-         <!-- From Emailjs.com  -->
+
     <link rel="shortcut icon" href="images/favicon.png">
 
+         <!-- Srcipt from emailjs.com  -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
     (function() {
@@ -27,12 +30,21 @@
     })();
     </script>
 
+         <!-- Srcipt from loading GIF  -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+    <script>  
+        $(window).on('load', function () {  
+            $(".preloader").fadeOut("slow");  
+        });  
+    </script>
+
     <script src="js/sendmail.js"></script>
+    <script src="js/loader.js"></script>
 
 </head>
 
 <body>
-    
+    <div id="loader"></div>
 	<header id="header">
         <div class="container">
             <div class="row">
@@ -136,7 +148,10 @@
                 </div>
             </div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+        <!-- <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div> -->
+        <!-- <div id="loader"></div> -->
+        
+
     </section>
     <!--/#home-slider-->
 
