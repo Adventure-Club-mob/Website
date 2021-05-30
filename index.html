@@ -55,13 +55,13 @@
         var loader;
 
         function loadNow(opacity) {
-            if (opacity <= 0) {
+            if (opacity < 0) {
                 displayContent();
             } else {
                 loader.style.opacity = opacity;
                 window.setTimeout(function() {
-                    loadNow(opacity - 0.5);
-                }, 5000);
+                    loadNow(opacity - 1);
+                }, 8000);
             }
         }
 
