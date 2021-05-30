@@ -10,4 +10,3 @@ function send_mail(){
         console.log("Success", res.status);
     })
 }
-
