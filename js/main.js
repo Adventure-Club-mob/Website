@@ -21,7 +21,7 @@ jQuery(function($) {'use strict';
 	// portfolio filter
 	$(window).load(function(){
 
-		$('.main-slider').addClass('animate-in');
+		// $('.main-slider').addClass('animate-in');
 		// $('.preloader').remove();
 		//End Preloader
 
