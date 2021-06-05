@@ -764,16 +764,20 @@ ul.sub-menu {
 }
 
 .single-features .col-sm-6 {
-  margin-top: 50px;
+  margin-top: 0;
 }
 
 .single-features:last-child {
   padding-bottom: 95px;
-  padding-top: 0;
+  padding-top: 50px;
 }
 
 .single-features h2{
   margin-bottom: 15px;
+}
+
+.sponser-padding {
+  padding-top: 18px;
 }
 
 #clients{
@@ -791,6 +795,7 @@ ul.sub-menu {
 .clients-logo {
   overflow: hidden;
   margin-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 
@@ -994,6 +999,10 @@ h3.top-zero{
   margin-bottom: 25px;
 }
 
+.sponser {
+  height: 600px;
+  width: 850px;
+}
 
 .single-skill h3{
   font-size: 16px;
