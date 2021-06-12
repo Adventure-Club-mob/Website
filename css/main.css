@@ -6,7 +6,7 @@
   Description: Creative Site Template
   Version: 1.1
   */
-
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap')*/
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
@@ -2963,4 +2963,46 @@ span.stButton_gradient,
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600; 
+}
+
+.loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.error-message{
+  display: none;
+  background: #c9302c;
+  text-align: center;
+}
+
+.sent-message{
+  display: none;
+  background: #4cae4c;
+  text-align: center;
+}
+
+.display{
+  display: block;
+}
+
+.nondisplay{
+  display: none;
+}
+
+
+
+.loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
 }
