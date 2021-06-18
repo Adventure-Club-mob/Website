@@ -38,6 +38,9 @@
         });  
     </script>
 
+        <!--Google AdSense Link-->
+    <!-- <script data-ad-client="ca-pub-3082491087824956" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+
     <script src="js/sendmail.js"></script>
     <script src="js/loader.js"></script>
 
@@ -51,10 +54,10 @@
                 <div class="col-sm-12 overflow">
                    <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li><a href="https://www.facebook.com/Adventure-Club-University-of-Kelaniya-103841601928830/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://www.twitter.com/adventure_uok"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/adventure_club_uok/"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/adventure-club-uok"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/Adventure-Club-University-of-Kelaniya-103841601928830/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.twitter.com/adventure_uok" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/adventure_club_uok/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/adventure-club-uok" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -79,6 +82,7 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="index.html"><b>Home</b></a></li>
+                        <li><a href="game.html"><b>Games</b></a></li>
                         <li><a href="aboutus.html"><b>About us</b></a></li>
                         <li><a href="history.html"><b>History</b></a></li>
                         <li><a href="contact.html"><b>Contact us</b></a></li>
@@ -346,7 +350,7 @@
                         <h2>Contacts</h2>
                         <address>
                         E-mail : <br><a href="mailto:hello@ac-uok.com">hello@ac-uok.com</a><br>
-                        <a href="mailto:hello@ac-uok.com">president@ac-uok.com</a> <br>
+                        <a href="mailto:president@ac-uok.com">president@ac-uok.com</a> <br>
                         Phone : +94 (76) 893 7675 <br>
                         </address>
 
@@ -372,6 +376,9 @@
                             <span class="label-form" for="name">Message</span>
                             <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
                         </div>
+                        <div class="loading">Message is Sending.............</div>
+                        <div class="error-message">Message is not sent. please check your connection.</div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
                         <button  class="btn btn-submit" onclick="send_mail();"><b>Send</b></button>
                         
                     </div>
