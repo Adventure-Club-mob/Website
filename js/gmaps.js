@@ -1784,9 +1784,9 @@ GMaps.prototype.addMapType = function(mapTypeId, options) {
 
 GMaps.prototype.addOverlayMapType = function(options) {
   if (options.hasOwnProperty("getTile") && typeof(options["getTile"]) == "function") {
-    var overlayMapTypeIndex = options.index;
+    var overlayMapTypeIndex = options.home;
 
-    delete options.index;
+    delete options.home;
 
     this.map.overlayMapTypes.insertAt(overlayMapTypeIndex, options);
   }
