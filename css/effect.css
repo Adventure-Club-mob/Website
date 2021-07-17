@@ -41,9 +41,25 @@ svg {
 }
 
 .btn_works {
-    left: 100px;
+    left: 50%;
     right: unset;
     text-decoration: none;
+}
+
+.btn-submit-home {
+    text-align: center;
+    width: 150px;
+    background-color: #4fcccd;
+    color: rgb(27, 0, 61);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    margin-top: 5px;
+    border-bottom: 3px solid #2f9697;
+    box-shadow: none;
+    padding: 10px;
 }
 
 .btn:hover {

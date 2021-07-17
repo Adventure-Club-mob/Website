@@ -27,7 +27,11 @@
     font-size: 40px;
   }
 
-
+  /* ///// Home animation button///// */
+  .btn-submit-home {
+    width: 300px;
+    height: 15px;
+  }
 }
 
 /*md only*/
@@ -247,6 +251,11 @@
     margin-left: 35%;
     margin-right: 0;
     
+  }
+
+  /* ///// Home animation button///// */
+  .btn-submit-home {
+    width: 200px;
   }
 
   .btn-common {
