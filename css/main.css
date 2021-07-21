@@ -713,6 +713,13 @@ ul.sub-menu {
   width: 100%;
 }
 
+.text-line {
+  border-top: 2px solid #bbb;
+  border-radius: 5px;
+  margin-left: 13%;
+  width: 75%;
+}
+
 .vertical-center{
   display: table-cell;
   vertical-align: middle;
@@ -1146,11 +1153,17 @@ ul.elements li > i{
 
 .about-col {
   background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.about-col-1 {
+  background-color: #f5f5f5;
 }
 
 .about-col-history {
   background-color: #f5f5f5;
   padding: 20px 10px;
+  border-radius: 10px;
 }
 
 #mail-section .about-col-mail {
@@ -1159,6 +1172,7 @@ ul.elements li > i{
   padding-bottom: 50px;
   padding-right: 30px;
   padding-left: 30px;
+  border-radius: 10px;
 }
 
 #map-section .about-col-contact {
@@ -1169,6 +1183,10 @@ ul.elements li > i{
   padding-right: 50px;
   padding-bottom: 30px;
   padding-left: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 10px;
 }
 #map-section address a:hover {
   color:#00AEEF
