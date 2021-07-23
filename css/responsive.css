@@ -326,7 +326,8 @@
 
   #home-slider .slider-hill {
     right: 50%;
-    margin-right: -200px;
+    margin-right: -170px;
+    width: 360px;
   }
 
   #home-slider .slider-house {
@@ -348,9 +349,23 @@
   #home-slider .slider-birds2 {
     width: 70px;
     right: 50%;
-    margin-right: -200px;
+    margin-right: -180px;
   }
 
+  #map-section .about-col-contact {
+    /* position: absolute; */
+    background-color: #f5f5f5;
+    height: 100%;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
   /*Pricing Table*/
   .single-price, .single-table {
     margin-bottom: 45px;
