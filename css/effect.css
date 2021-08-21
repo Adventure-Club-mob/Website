@@ -48,13 +48,12 @@ svg {
 
 .btn-submit-home {
     text-align: center;
-    width: 150px;
+    width: 250px;
     background-color: #4fcccd;
     color: rgb(27, 0, 61);
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 5px;
-    text-transform: uppercase;
     border-radius: 7px;
     margin-top: 5px;
     border-bottom: 3px solid #2f9697;
