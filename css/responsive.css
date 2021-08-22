@@ -29,9 +29,14 @@
 
   /* ///// Home animation button///// */
   .btn-submit-home {
-    width: 300px;
-    height: 15px;
+    width: 500px;
+    border-radius: 60px;
   }
+  .home-bt {
+    font-size: 40px;
+  }
+  /* ////////////// */
+
 }
 
 /*md only*/
@@ -207,6 +212,7 @@
   h2{
     font-size:20px;
   }
+
 
   .padding{
     padding: 30px 0;
@@ -420,6 +426,14 @@
     margin-bottom: 25px;
   }
 
+  .features-img-1 {
+    height: 85%;
+    width: 85%;
+  }
+  .features-img {
+    height: 70%;
+    width: 70%;
+  }
 
   .single-features {
     text-align: center;
