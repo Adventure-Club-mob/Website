@@ -541,7 +541,7 @@ ul.sub-menu {
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 #home-slider .main-slider {
@@ -3166,4 +3166,8 @@ span.stButton_gradient,
   100% {
     background-position: 2000px 100%;
   }
+}
+
+.fa-star {
+  color: #686868;
 }
