@@ -64,3 +64,8 @@ svg {
 .btn:hover {
     background: #ffffff;
     color: #1B1734;
+}
+
+.home-bt {
+    font-family: 'CF Crack and Bold';
+}
