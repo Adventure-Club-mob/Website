@@ -66,6 +66,11 @@ svg {
     color: #1B1734;
 }
 
+/* CF Crack and Bold font-family of Visit Adventure Club */
+@font-face {
+    font-family: 'CF Crack and Bold';
+    src: url(../fonts/CFCrackandBold.ttf);
+}
 .home-bt {
-    font-family: 'CF Crack and Bold', sans-serif;
+    font-family: 'CF Crack and Bold';
 }
