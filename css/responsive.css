@@ -23,8 +23,8 @@
   }
 
   .Ani-title {
-    margin-left: 40%;
-    font-size: 40px;
+    margin-left: 44%;
+    font-size: 45px;
   }
 
   /* ///// Home animation button///// */
@@ -219,7 +219,8 @@
   }
 
   .Ani-title {
-    font-size: 30px;
+    font-size: 40px;
+    margin-left: 32%;
   }
 
   #header {
@@ -603,6 +604,16 @@
   .btn-error {
     font-size: 13px;
     padding: 12px 18px;
+  }
+
+  .patrons {
+    height: 30px;
+    width: 200px;
+  }
+
+  .patrons-con {
+    margin-left: -15px;
+    margin-right: -45px;
   }
 }
 
