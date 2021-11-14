@@ -795,6 +795,7 @@ ul.sub-menu {
 
 .sponser-padding {
   padding-top: 18px;
+  padding-bottom: 7px;
 }
 
 #clients{
@@ -2869,95 +2870,7 @@ span.stButton_gradient,
   background-color: #4FCCCD;
 }
 
-
-
-
-/* /////////////////////////////////// */
-/*
-.social-profile .nav-pills-col6 li a {
-  color: #fff;
-  border: 1px solid #fff;
-  width: 20px;
-  height: 20px;
-  line-height: 40px;
-  text-align: center;
-  padding: 0;
-  border-radius: 40px;
-  -webkit-transition: all 0.9s ease;
-  transition: all 0.9s ease;
-}
-.social-profile .nav-pills-col6 {
-  display: inline-block;
-  margin-top: -26px;
-  padding: 0;
-  position: relative;
-  top: 50%;
-}
-.social-profile .nav-pills-col6 li {
-  display: inline-block;
-  margin: 0 5px;
-}
-.social-profile .nav-pills-col6 li a:hover {
-  color: #702340;
-  border-color: #00aeef;
-}
-.portfolio-view .nav-pills-col6 {
-  padding: 0;
-  display: inline-block;
-  margin-top: -26px;
-  top: 50%;
-  position: relative;
-}
-.portfolio-view .nav-pills-col6 li {
-  display: inline-block;
-  margin: 0 5px;
-}
-.portfolio-view .nav-pills-col6 li a {
-  color: #fff;
-  border: 1px solid #fff;
-  width: 40px;
-  height: 40px;
-  line-height: 38px;
-  text-align: center;
-  padding: 0;
-  border-radius: 40px;
-  -webkit-animation: scaleIn 400ms linear 100ms both;
-  animation: scaleIn 400ms linear 100ms both;
-  -webkit-transition: all 0.9s ease;
-  transition: all 0.9s ease;
-}
-.portfolio-view .nav-pills-col6 li a:hover {
-  color: #702340;
-  border-color: #702340;
-  -webkit-transition: all 0.9s ease;
-  transition: all 0.9s ease;
-}
-.tag-cloud .nav-pills-col6 {
-  margin-top: 16px;
-}
-.tag-cloud .nav-pills-col6 li{
-  margin: 0;
-  margin-top: 6px;
-  margin-right: 4px;
-}
-.tag-cloud .nav-pills-col6 li a{
-  font-size: 14px;
-  font-weight: 300;
-  padding: 5px 15px;
-  background: #bbbbbb;
-  color: #fff;
-  border-radius: 3px;
-}
-.tag-cloud .nav-pills-col6 li a:hover{
-  background: #0099AE;
-}
-.nav-pills-col6>li.active>a, .nav-pills-col6>li.active>a:hover, .nav-pills-col6>li.active>a:focus{
-  background-color: #4FCCCD;
-}
-*/
-/* /////////////////////////////// */
-
-
+/* ////////////////////////////// */
 
 
 .tab-content {
@@ -3170,4 +3083,125 @@ span.stButton_gradient,
 
 .fa-star {
   color: #686868;
+}
+
+.patrons {
+  border-radius: 7px;
+}
+
+.patrons-con {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+
+/* PARALLAX */
+.body {
+  margin: -5px;
+}
+
+.keyart, .keyart_layer {
+  height: 1000px;
+}
+
+#parallax {
+  display: block;
+}
+
+.keyart {
+  position: relative;
+  z-index: 10;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.keyart_layer.parallax {
+  position: fixed;
+}
+
+#keyart-0 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax0.png");
+  background-color: #ffaf1b;
+}
+
+#keyart-1 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax1.png");
+}
+
+#keyart-2 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax2.png");
+}
+
+#keyart-3 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax3.png");
+}
+
+#keyart-4 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax4.png");
+}
+
+#keyart-5 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax5.png");
+}
+
+#keyart-6 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax6.png");
+}
+
+#keyart-7 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax7.png");
+}
+
+#keyart-8 {
+  background-image: url("http://www.firewatchgame.com/images/parallax/parallax8.png");
+}
+
+#keyart-scrim {
+  background-color: #ffaf00;
+  opacity: 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  #keyart-0 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax0@2x.png");
+    background-color: #ffaf1b;
+  }
+
+  #keyart-1 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax1@2x.png");
+  }
+
+  #keyart-2 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax2@2x.png");
+  }
+
+  #keyart-3 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax3@2x.png");
+  }
+
+  #keyart-4 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax4@2x.png");
+  }
+
+  #keyart-5 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax5@2x.png");
+  }
+
+  #keyart-6 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax6@2x.png");
+  }
+
+  #keyart-7 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax7@2x.png");
+  }
+
+  #keyart-8 {
+    background-image: url("http://www.firewatchgame.com/images/parallax/parallax8@2x.png");
+  }
 }
