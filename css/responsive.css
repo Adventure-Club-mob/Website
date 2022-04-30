@@ -514,6 +514,9 @@
   .single-blog.blog-details .post-content{
     padding: 30px 0 30px 0;
   }
+  .post-img img {
+    width: 300px;
+  }
 
   /* Portfolio */
 
