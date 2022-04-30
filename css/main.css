@@ -15,7 +15,7 @@
     background: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: #000;
   }
@@ -1827,6 +1827,47 @@ a.read-more:hover{
   padding: 20px 20px 0;
 }
 
+.post-img img {
+  width: 400px;
+  padding: 20px 0 5px 0;
+}
+
+.single-blog .post-content p {
+  font-size: 17px;
+}
+.diary-mini-header span {
+  font-size: 18px;
+  color: #686868;
+}
+.diary-mini-header {
+  color: #686868;
+}
+.post-bottom .linkedin-banner {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-bottom .linkedin-banner .button-linkedin {
+  position: relative;
+  color: #fff;
+  background: linear-gradient(95.77deg,#068fd8 0,#0072b1 100%);
+  column-gap: 8px;
+  padding: 12px 32px;
+  font-size: 18px;
+  line-height: 150%;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.post-bottom .linkedin-banner .button-linkedin i {
+  font-size: 18px;
+}
 
 /*****************************
 Blog with right sidebar
@@ -1986,7 +2027,7 @@ Blog Details
 }
 
 .single-blog.blog-details .post-content{
-  padding-top: 30px;
+  padding: 40px;
 }
 
 .single-blog.blog-details .post-bottom{
