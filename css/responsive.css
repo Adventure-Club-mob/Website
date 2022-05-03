@@ -511,6 +511,12 @@
   .single-blog.two-column .post-overlay{
     margin-top: 0;
   }
+  .single-blog.blog-details .post-content{
+    padding: 30px 0 30px 0;
+  }
+  .post-img img {
+    width: 300px;
+  }
 
   /* Portfolio */
 
