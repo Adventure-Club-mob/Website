@@ -2070,6 +2070,14 @@ span.stButton_gradient,
   color: #C03035;
 }
 
+.author-img {
+  border-radius: 50px;
+}
+
+.read-more-diaries img {
+  height: 52px;
+}
+
 .response-area{
   border-bottom: 0;
 }
