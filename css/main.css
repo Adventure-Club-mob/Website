@@ -1842,31 +1842,37 @@ a.read-more:hover{
 .diary-mini-header {
   color: #686868;
 }
-.post-bottom .linkedin-banner {
+.post-bottom .social-pad {
+  padding: 10px 0;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.post-bottom .linkedin-banner .button-linkedin {
+.post-bottom .button-linkedin, .post-bottom .button-facebook {
   position: relative;
   color: #fff;
-  background: linear-gradient(95.77deg,#068fd8 0,#0072b1 100%);
   column-gap: 8px;
   padding: 12px 32px;
-  font-size: 18px;
-  line-height: 150%;
+  font-size: 16px;
+  letter-spacing: 1px;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: 0.3s;
 }
-.post-bottom .linkedin-banner .button-linkedin i {
-  font-size: 18px;
+.post-bottom .button-linkedin {
+  background: linear-gradient(95.77deg,#0ba4f7 0,#068fd8 100%);
+}
+.post-bottom .button-facebook {
+  background: linear-gradient(95.77deg,#068fd8 0,#4267B2 100%);
+}
+.post-bottom .button-linkedin i, .post-bottom .button-facebook i {
+  font-size: 24px;
 }
 
 /*****************************
